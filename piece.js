@@ -15,8 +15,7 @@ class Piece {
   }
 
   draw() {
-    this.ctx.fllStyle = this.color;
-
+    this.ctx.fillStyle = this.color;
     this.shape.forEach((row, y) => {
       row.forEach((value, x) => {
         if (value > 0) {
