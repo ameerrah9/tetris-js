@@ -5,6 +5,7 @@ class Board {
     this.piece = new Piece(ctx);
   }
 
+  // Get matrix filled with zeros.
   getEmptyBoard() {
     return Array.from({ length: ROWS }, () => Array(COLS).fill(0));
   }
